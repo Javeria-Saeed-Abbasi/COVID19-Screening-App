@@ -81,7 +81,7 @@
 .modal-body h3{
     font-weight: bold;
 }
-/* Modal 2 */
+/* ================================Modal 2===================== */
 .modal-body {
     position: relative;
     -ms-flex: 1 1 auto;
@@ -90,6 +90,17 @@
     padding: 2rem;
     overflow-y: scroll;
     }
+/* ================================Modal 4===================== */
+.q1 .sec{
+    text-align: center;
+}
+
+.questions .row{
+    display: none;
+}
+.questions .active{
+    display: block;
+}
 /* ================================Index 2===================== */
 .wrapper2{
     /* background-color: rgb(191, 142, 238); */

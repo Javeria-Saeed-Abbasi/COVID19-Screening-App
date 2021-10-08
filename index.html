@@ -45,7 +45,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <button class="btn-lg btn-primary text-white"> Start Screening</button>
+                   <button data-toggle="modal" data-target="#start-screening" class="btn-lg btn-primary text-white btn-block" onClick="startScreening()"> Start Screening</button>
                 </div>
             </div>
             </div>
@@ -408,5 +408,47 @@
         </div>
       </div>
    </div>
+   <!-- ===============================Modal 4=================================== -->
+   <div class="container">
+    <div class="modal fade" id="start-screening" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <img src="images/logo.png" class="img-fluid" class="logo"/>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body questions">
+
+              <div class="row q1 active">
+                <div class="pt-3 pb-5">
+                  <h3>Do you have Fever above 101.4?</h3>                </div>
+                <div class="sec">
+                  <div class="fever text-center">
+                    <img class="img-fluid" src="/images/1.png"/>
+                </div> 
+                <div class=" btn-group">
+                  <div class="col-12 text-center pt-5 pb-3">
+                      <button type="button" class="btn btn-lg btn-primary mb-3 btn-block">
+                        Yes, I do
+                      </button>
+                      <button type="button" class="btn btn-lg btn-primary btn-block">
+                        No, I don't
+                      </button> 
+                  </div>
+              </div>    
+                </div>
+            </div>
+
+              </div>
+                
+
+
+          </div>
+        </div>
+      </div>
+   </div>
+    
 </body>
 </html>
