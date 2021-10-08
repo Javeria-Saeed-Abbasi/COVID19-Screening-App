@@ -1,0 +1,133 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    /* background-color: rgb(191, 142, 238); */
+    width: 405px;
+    height: auto;
+}
+.container1 .logo{
+    /* background-color: burlywood; */
+    width: 65px;
+    height: 65px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.container1 .h3{
+    font-weight: bold;
+}
+
+.container1 p{
+    font-size: 15px;
+}
+.container1 .lady-img{
+    /* background-color: chartreuse; */
+    margin-top: 150px;
+}
+
+/* =========================Information Index1=============== */
+.container1 .info h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+.container1 .info h5{
+    font-weight: bold;
+}
+.container1 .info p{
+    font-size: 14px;
+}
+.container1 .info .virus{
+    width: 60px;
+    height: 60px;
+}
+.container1 .info .arrow {
+    /* background-color: cyan; */
+    margin-top: 60px;
+  }
+/* ===================Modals=============== */
+.modal-dialog{
+    position: fixed;
+    background-color: darkcyan;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: white;
+    pointer-events: none;
+}
+.modal-content{
+    /* width: 405px; */
+}
+.modal-header {
+    background-color: rgb(236, 234, 234);
+    height: 62px;
+}
+.modal-header img{
+    /* background-color: darkturquoise; */
+    width: 65px;
+    height: 65px;
+    margin: 0px;
+}
+.modal-header .close{
+    /* background-color: darkkhaki; */
+    width: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.modal-body h3{
+    font-weight: bold;
+}
+/* Modal 2 */
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 90vh;
+    padding: 2rem;
+    overflow-y: scroll;
+    }
+/* ================================Index 2===================== */
+.wrapper2{
+    /* background-color: rgb(191, 142, 238); */
+    width: 405px;
+    height: auto;
+}
+
+.header2{
+    background-color: rgb(236, 234, 234);
+    margin:0px;
+}
+.header2 .virus-logo{
+    width: 65px;
+    height: 65px;
+    margin-left: 0px;
+    padding-top: 25px;
+}
+.header2 .cross-btn{
+    /* background-color: darkgoldenrod; */
+    width: 10px;
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 0px;
+    font-size: 25px;
+    
+}
+.section1 .sec-head{
+    /* background-color: darkmagenta; */
+    padding-top: 60px;
+}
+.section1 .sec-head h3{
+    font-weight: bold;
+}
+.section1 .sec-icon{
+    /* background-color: darkorange; */
+    padding-top: 60px;
+}
+.section1 .sec-icon img{
+    width: auto;
+    height: 300px;
+}
