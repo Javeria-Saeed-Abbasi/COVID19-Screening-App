@@ -101,44 +101,21 @@
 .questions .active{
     display: block;
 }
-/* ================================Index 2===================== */
-.wrapper2{
-    /* background-color: rgb(191, 142, 238); */
-    width: 405px;
-    height: auto;
+.result1 ol li{
+    font-size: 22px;
 }
-
-.header2{
-    background-color: rgb(236, 234, 234);
-    margin:0px;
+.result1 p{
+    font-size: 20px;
 }
-.header2 .virus-logo{
-    width: 65px;
-    height: 65px;
-    margin-left: 0px;
-    padding-top: 25px;
+.result2 ol li{
+    font-size: 22px;
 }
-.header2 .cross-btn{
-    /* background-color: darkgoldenrod; */
-    width: 10px;
-    text-align: right;
-    padding-top: 20px;
-    margin-right: 0px;
-    font-size: 25px;
-    
+.result2 p{
+    font-size: 20px;
 }
-.section1 .sec-head{
-    /* background-color: darkmagenta; */
-    padding-top: 60px;
+.result3 ol li{
+    font-size: 22px;
 }
-.section1 .sec-head h3{
-    font-weight: bold;
-}
-.section1 .sec-icon{
-    /* background-color: darkorange; */
-    padding-top: 60px;
-}
-.section1 .sec-icon img{
-    width: auto;
-    height: 300px;
+.result3 p{
+    font-size: 20px;
 }
